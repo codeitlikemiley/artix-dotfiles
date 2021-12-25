@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/uriah/.local/share/login_scripts/hyper.sh
+Icon=dialog-scripts
+Name=hyper.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/uriah/.local/share/login_scripts/remaps.sh
+Icon=dialog-scripts
+Name=remaps.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true

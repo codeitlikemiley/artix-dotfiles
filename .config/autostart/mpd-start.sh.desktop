@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/uriah/.config/old-autostart-scripts/mpd-start.sh
+Icon=dialog-scripts
+Name=mpd-start.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true
