@@ -1,0 +1,22 @@
+# These files automatically update when edited/saved in vim:
+
+# keys	filename				description
+bf	${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-files	# This file, a list of bookmarked files
+bd	${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs		# A list of bookmarked directories similar to this file
+
+
+# These do not update automatically, but on the next new instance of a program:
+
+cfv	${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim		# vim/neovim config
+cfz	$ZDOTDIR/.zshrc						# zsh (shell) config
+cfa	${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc		# aliases used by zsh (and potentially other shells)
+cfp	${XDG_CONFIG_HOME:-$HOME/.config}/shell/profile		# profile file for login settings for zsh
+cfmb	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings	# ncmpcpp (music player) keybinds file
+cfmc	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/config	# ncmpcpp (music player) config
+cfA ${XDG_CONFIG_HOME:-$HOME/.config}/alacritty/alacritty.yml
+cfS ${XDG_CONFIG_HOME:-$HOME/.config}/sxhkd/sxhkdrc
+cfk ${XDG_CONFIG_HOME:-$HOME/.config}/Code/User/keybindings.json
+cfs ${XDG_CONFIG_HOME:-$HOME/.config}/starship.toml
+cfr ${XDG_CONFIG_HOME:-$HOME/.config}/ranger/rifle.conf
+vss ${XDG_CONFIG_HOME:-$HOME/.config}/Code/User/settings.json
+cft $HOME/.tmux.conf
