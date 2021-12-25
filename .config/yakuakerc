@@ -1,0 +1,30 @@
+[Animation]
+Frames=0
+UseWMAssist=false
+
+[Appearance]
+HideSkinBorders=true
+Skin=plasma-oxygen-panel
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Behavior]
+FocusFollowsMouse=true
+OpenAfterStart=true
+
+[Desktop Entry]
+DefaultProfile=Gol D. Coders.profile
+
+[Dialogs]
+ConfirmQuit=false
+FirstRun=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[Window]
+KeepOpen=false
+ShowTabBar=false
+ShowTitleBar=false
+Width=100
