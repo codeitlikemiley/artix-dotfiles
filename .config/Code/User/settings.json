@@ -1,0 +1,116 @@
+{
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "blade",
+    "vue"
+  ],
+  "[blade]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  },
+  "css.validate": false,
+  "[css]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "dart.checkForSdkUpdates": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+  },
+  "debug.openDebug": "openOnDebugBreak",
+  "editor.scrollBeyondLastLine": false,
+  "editor.minimap.enabled": false,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.mouseWheelZoom": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.run": "onSave",
+  "eslint.options": {
+    "extensions": [
+      ".html",
+      ".js",
+      ".vue",
+      ".jsx"
+    ]
+  },
+  "eslint.validate": [
+    "html",
+    "vue",
+    "javascript",
+    "javascriptreact"
+  ],
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "javascript.validate.enable": false,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+  },
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.cursorWidth": 2,
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/uriah/.config/nvim/init.vim",
+  "window.zoomLevel": 1.5,
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
+  "bracketPairColorizer.depreciation-notice": false,
+}
