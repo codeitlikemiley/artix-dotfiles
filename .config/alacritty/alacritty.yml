@@ -1,0 +1,131 @@
+window:
+  dimensions:
+    columns: 500
+    lines: 30
+  position:
+    x: 0
+    y: 0
+  decorations: none
+  opacity: 0.95
+scrolling:
+  history: 10000
+  multiplier: 10
+  auto_scroll: true
+
+
+tabspaces: 4
+
+draw_bold_text_with_bright_colors: true
+
+font:
+  normal:
+    family: "Hack Nerd Font Mono"
+
+  bold:
+    family: "Hack Nerd Font Mono"
+    style: Bold
+
+  italic:
+    family: "Hack Nerd Font Mono"
+    style: Italic
+
+  size: 5
+  offset:
+    x: 0
+    y: 1
+
+  use_thin_strokes: false
+
+# Goldcoders Terminal Theme
+colors:
+  # Default colors
+  primary:
+    background: "#2E3440"
+    foreground: "#D8DEE9"
+
+  # Normal colors
+  normal:
+    black: "#3B4252"
+    red: "#BF616A"
+    green: "#A3BE8C"
+    yellow: "#EBCB8B"
+    blue: "#81A1C1"
+    magenta: "#B48EAD"
+    cyan: "#88C0D0"
+    white: "#E5E9F0"
+
+  # Bright colors
+  bright:
+    black: "#4C566A"
+    red: "#BF616A"
+    green: "#A3BE8C"
+    yellow: "#EBCB8B"
+    blue: "#81A1C1"
+    magenta: "#B48EAD"
+    cyan: "#8FBCBB"
+    white: "#ECEFF4"
+
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+selection:
+  semantic_escape_chars: ",?`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+dynamic_title: true
+
+live_config_reload: true
+
+# Yeah We want tmux Once we Start Alacritty
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
+key_bindings:
+    # Command + Key Bindings
+  - { key: E,     mods: Alt,       chars: "\x01\x45" } # View Window Tree
+  - { key: V,     mods: Alt|Shift,       chars: "\x01\x5f" } # Layout Even Horizontal
+  - { key: H,     mods: Alt,       chars: "\x01\x68" } # Move Pane Left
+  - { key: J,     mods: Alt,       chars: "\x01\x6a" } # Move Pane Down
+  - { key: K,     mods: Alt,       chars: "\x01\x6b" } # Move Pane Up
+  - { key: L,     mods: Alt,       chars: "\x01\x6c" } # Move Pane Right
+  - { key: N,     mods: Alt,       chars: "\x01\x63" } # Create New Window
+  - { key: Q,     mods: Alt,       chars: "\x01\x51" } # Kill Workspace | Same as Close Tab
+  - { key: R,     mods: Alt,       chars: "\x01\x72" } # Rename Pane
+  - { key: T,     mods: Alt,       chars: "\x01\x63" } # Create New Window
+  - { key: W,     mods: Alt,       chars: "\x01\x78" } # Kill Window
+  - { key: Z,     mods: Alt,       chars: "\x01\x7a" } # Zoom Pane
+  - { key: F,       mods: Alt,       action: ToggleFullscreen }
+
+    # Manage Tabbing
+  - { key: Key1,  mods: Alt,       chars: "\x01\x31" }
+  - { key: Key2,  mods: Alt,       chars: "\x01\x32" }
+  - { key: Key3,  mods: Alt,       chars: "\x01\x33" }
+  - { key: Key4,  mods: Alt,       chars: "\x01\x34" }
+  - { key: Key5,  mods: Alt,       chars: "\x01\x35" }
+  - { key: Key6,  mods: Alt,       chars: "\x01\x36" }
+  - { key: Key7,  mods: Alt,       chars: "\x01\x37" }
+  - { key: Key8,  mods: Alt,       chars: "\x01\x38" }
+  - { key: Key9,  mods: Alt,       chars: "\x01\x39" }
+
+  - { key: F4,     mods: Alt, action:  Quit     }
+
+  - { key: Return,  mods: Alt, mode: ~Search,  chars: "\x01\x5b" } # Tmux Vi Mode
+  - { key: Return,  mods: Alt|Shift, mode: ~Search,    action: ToggleViMode } # Alacritty Vi Mode
+
+  - { key: S,     mods: Alt,  chars: "\x01\x73" } # Split Horizontal Pane
+  - { key: V,      mods: Alt,  chars: "\x01\x61" } # Split Vertical Pane
+  - { key: X,      mods: Alt|Shift,  chars: "\x01\x7b" } # Move Current Pane Left
+  - { key: X,     mods: Alt,  chars: "\x01\x7d" } # Move Current Pane Right
+  - { key: S,     mods: Alt|Shift, chars: "\x01\x2b" } # Even Layout Horizontal
+  - { key: H,     mods: Alt|Shift, chars: "\x01\x48" } # Decrease Pane Horizontal
+  - { key: J,     mods: Alt|Shift, chars: "\x01\x4a" } # Decrease Pane Vertical
+  - { key: K,     mods: Alt|Shift, chars: "\x01\x4b" } # Increase Pane Vertical
+  - { key: L,     mods: Alt|Shift, chars: "\x01\x4c" } # Increase Pane Horizontal
+  - { key: R,     mods: Alt|Shift, chars: "\x01\x74" } # Reload Tmux Config
+  - { key: W,     mods: Alt|Shift, chars: "\x01\x5a" } # Tmux Kill Server
+    # END Keybindings
