@@ -109,9 +109,8 @@ alias \
 
 alias \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
-    rz="source $HOME/.zshrc" \
+    rz="source $XDG_CONFIG_HOME/zsh/.zshrc" \
     rp="source ~/.zprofile" \
-    ra="source ~/.config/aliasrc.sh" \
     rt="tmux source-file ~/.tmux.conf"
 
 alias ..='cd ..'

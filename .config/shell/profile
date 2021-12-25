@@ -65,6 +65,9 @@ export ENABLE_FLUTTER_DESKTOP=true
 export ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 
+export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/config.toml"
+export STARSHIP_CACHE="$XDG_CONFIG_HOME/starship/cache"
+
 export CARGO_NET_GIT_FETCH_WITH_CLI=true
 export HISTTIMEFORMAT="[%F %T] "
 export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.x86_64.json:/usr/share/vulkan/icd.d/nvidia_icd.json
