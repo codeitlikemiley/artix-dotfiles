@@ -1,0 +1,233 @@
+[All Dialog]
+Description=All Dialog
+blockcompositing=true
+blockcompositingrule=2
+types=32
+wmclasscomplete=true
+
+[Calculator]
+Description=Calculator
+above=true
+blockcompositing=true
+ignoregeometry=true
+ignoregeometryrule=2
+noborder=true
+position=923,569
+positionrule=4
+size=313,331
+sizerule=4
+type=5
+wmclass=kcalc
+wmclassmatch=1
+
+[Drop Down Alacritty]
+Description=Drop Down Alacritty
+above=true
+aboverule=2
+activity=00000000-0000-0000-0000-000000000000
+activityrule=2
+blockcompositingrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+maximizehoriz=true
+maximizehorizrule=2
+noborder=true
+noborderrule=2
+opacityactive=88
+opacityinactive=88
+position=0,29
+positionrule=2
+size=2160,657
+sizerule=2
+type=5
+typerule=2
+types=33
+windowrole=dolphin#1
+wmclass=tdrop alacritty
+wmclasscomplete=true
+wmclassmatch=2
+
+[Emoji]
+Description=Emoji
+above=true
+aboverule=2
+blockcompositing=true
+blockcompositingrule=2
+fpplevelrule=2
+fsplevelrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+noborder=true
+noborderrule=2
+position=780,481
+positionrule=4
+size=599,507
+sizerule=3
+type=5
+typerule=2
+types=33
+wmclass=plasma.emojier
+wmclassmatch=1
+
+[Huawei Matebook Applet]
+Description=Huawei Matebook Applet
+above=true
+aboverule=2
+blockcompositing=true
+blockcompositingrule=2
+ignoregeometry=true
+position=1890,29
+positionrule=2
+size=270,366
+sizerule=2
+type=5
+typerule=2
+types=33
+wmclass=matebook-applet
+wmclassmatch=1
+
+[Open GPG]
+Description=Open GPG
+above=true
+aboverule=3
+blockcompositing=true
+maxsize=531,307
+maxsizerule=2
+minsize=531,307
+minsizerule=2
+noborder=true
+position=814,580
+positionrule=3
+size=531,307
+sizerule=3
+title=rofi -
+type=5
+types=1
+wmclass=pinentry-gtk-2 pinentry-gtk-2
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for kdialog kdialog]
+Description=Settings for kdialog kdialog
+blockcompositing=true
+blockcompositingrule=2
+ignoregeometry=true
+maxsize=531,307
+minsize=531,307
+placement=6
+placementrule=2
+position=404,39
+size=1351,1391
+types=32
+wmclass=kdialog kdialog
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for systemsettings5 systemsettings]
+Description=Settings for systemsettings5 systemsettings
+above=true
+blockcompositing=true
+blockcompositingrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+maxsize=531,307
+minsize=531,307
+noborder=true
+position=404,39
+positionrule=2
+size=1351,1391
+sizerule=2
+title=rofi -
+type=5
+types=1
+wmclass=systemsettings
+wmclassmatch=2
+
+[Window settings for brave-browser]
+Description=Window settings for brave-browser
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+noborder=true
+noborderrule=2
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=brave-browser
+wmclassmatch=1
+
+[Window settings for dolphin]
+Description=Window settings for dolphin
+above=true
+blockcompositing=true
+ignoregeometry=true
+opacityactive=88
+opacityactiverule=2
+opacityinactive=88
+opacityinactiverule=2
+placement=6
+size=1326,938
+type=5
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
+wmclassmatch=1
+
+[Window settings for st]
+Description=Window settings for st
+maximizehorizrule=3
+maximizevertrule=3
+noborder=true
+noborderrule=2
+types=1
+wmclass=st
+wmclassmatch=1
+
+[Window settings for zathura]
+Description=Window settings for zathura
+blockcompositingrule=2
+noborderrule=2
+types=289
+wmclass=zathura
+wmclassmatch=1
+
+[drop down st]
+Description=drop down st
+aboverule=3
+activity=00000000-0000-0000-0000-000000000000
+activityrule=2
+blockcompositing=true
+ignoregeometry=true
+ignoregeometryrule=2
+maximizehoriz=true
+maximizehorizrule=2
+noborder=true
+noborderrule=2
+opacityactive=88
+opacityinactive=88
+position=0,29
+positionrule=2
+size=2160,576
+sizerule=4
+types=1
+windowrole=dolphin#1
+wmclass=tdrop-st
+wmclassmatch=1
+
+[rofi]
+Description=rofi
+above=true
+blockcompositing=true
+closeablerule=2
+noborder=true
+noborderrule=3
+position=1890,29
+size=270,366
+title=rofi -
+type=5
+typerule=2
+types=32
+wmclass=rofi rofi
+wmclassmatch=1
